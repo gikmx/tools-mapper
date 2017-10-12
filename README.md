@@ -1,4 +1,4 @@
-# [@gik/tools-mapper](https://github.com/gikmx/tools) *0.0.2*
+# [@gik/tools-mapper](https://github.com/gikmx/tools) *0.0.3*
 > Creates a single-level dictionary for all the properties in an object.
 
 ## Contributors
@@ -10,26 +10,10 @@
 
 ### Table of Contents
 
--   [Errors](#errors)
--   [Mapper](#mapper)
--   [mapper](#mapper-1)
-
-## Errors
-
-An error thrown then the subject passed to Mapper is not the expected type.
-
-Type: mapperTypeError
-
-## Mapper
-
-A map to all the properties contained in an object.
-
-Type: PropertyMap
-
-**Parameters**
-
--   `subject`  
--   `prefix`   (optional, default `''`)
+-   [mapper](#mapper)
+-   [\_\_types](#__types)
+    -   [mapperTypeError](#mappertypeerror)
+    -   [mapperResult](#mapperresult)
 
 ## mapper
 
@@ -58,4 +42,20 @@ const result = Mapper(subject);
 // { 'a.b.d': true, 'a.b.e.g': 'foo', 'a.f': undefined }
 ```
 
-Returns **PropertyMap** [read](#propertymap)
+-   Throws **mapperTypeError** [see](#mappertypeerror)
+
+Returns **mapperResult** [see](#mapperresult)
+
+## \_\_types
+
+### mapperTypeError
+
+The subject passeed to the Mapper is not the expected type.
+
+Type: [Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error)
+
+### mapperResult
+
+A map to all the properties contained in an object.
+
+Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)

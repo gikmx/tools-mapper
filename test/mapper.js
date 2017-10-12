@@ -1,10 +1,11 @@
 import Test from 'ava';
-import Mapper, { Errors } from '../lib/index';
+import Mapper from '../lib/mapper';
+import Types from '../lib/types';
 
 Test('should throw an error when sent a non object', test =>
     test.throws(() => Mapper('foo'), err =>
-        err.name === Errors.notype.name &&
-        err.message.indexOf(Errors.notype.message) === 0,
+        err.name === Types.mapperTypeError.name &&
+        err.message.indexOf(Types.mapperTypeError.message) === 0,
     ),
 );
 
