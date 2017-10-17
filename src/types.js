@@ -1,24 +1,24 @@
 /**
- * @namespace __types
+ * @module __types
  * @memberof Tools
  */
 export default {
 
     /**
     * The subject passeed to the Mapper is not the expected type.
-    * @typedef {Error} mapperTypeError
+    * @typedef {Error}
     * @memberof Tools.__types
     */
-    mapperTypeError: {
-        name: 'mapperTypeError',
-        message: 'Expecting subject to be {Object}',
+    MapperParamError: {
+        name: 'MapperParamError',
+        message: 'Invalid parameter «%s». Expecting {%s}, got "%s"',
     },
 
     /**
     * A map to all the properties contained in an object.
-    * @typedef {Object} mapperResult
+    * @typedef {Object}
     * @memberof Tools.__types
     */
-    mapperResult: {},
+    MapperResult: {},
 
 };

@@ -8,8 +8,8 @@ import Types from './types';
  * @memberof Tools
  *
  * @param {Object} subject - The object you want to map.
- * @returns {mapperResult} - [see](#mapperresult)
- * @throws {mapperTypeError} - [see](#mappertypeerror)
+ * @returns {mapperResult}
+ * @throws {mapperTypeError}
  *
  * @example
  * const subject = {
@@ -28,9 +28,9 @@ import Types from './types';
  * // { 'a.b.d': true, 'a.b.e.g': 'foo', 'a.f': undefined }
  */
 export default function Mapper(subject, prefix = '') {
-    const err = Types.mapperTypeError;
+    const err = Types.MapperParamError;
     if (!Is.object(subject))
-        throw Thrower(`${err.message}, got '${typeof subject}'`, err.name);
+        Thrower([err.message, 'subject', 'Object', typeof subject], err.name);
     return Object
         .keys(subject)
         .reduce((result, key) => {

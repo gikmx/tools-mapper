@@ -1,6 +1,6 @@
 {
     "name": "@gik/tools-mapper",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Creates a single-level dictionary for all the properties in an object.",
     "license": "MIT",
     "homepage": "https://github.com/gikmx/tools",
@@ -44,12 +44,12 @@
         "prepublishOnly": "npm run docs -s"
     },
     "dependencies": {
-        "@gik/tools-checker": "0.0.7",
-        "@gik/tools-thrower": "^0.1.6"
+        "@gik/tools-checker": "0.0.8",
+        "@gik/tools-thrower": "^0.1.9"
     },
     "devDependencies": {
         "@gik/eslint-config": "0.0.3",
-        "@gik/npm": "0.0.28",
+        "@gik/npm": "0.0.29",
         "nodemon": "^1.12.1"
     }
 }

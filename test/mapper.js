@@ -4,8 +4,8 @@ import Types from '../lib/types';
 
 Test('should throw an error when sent a non object', test =>
     test.throws(() => Mapper('foo'), err =>
-        err.name === Types.mapperTypeError.name &&
-        err.message.indexOf(Types.mapperTypeError.message) === 0,
+        err.name === Types.MapperParamError.name &&
+        err.message.match(/Invalid parameter «subject»/) !== null,
     ),
 );
 
