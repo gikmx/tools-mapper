@@ -1,6 +1,6 @@
 {
     "name": "@gik/tools-mapper",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Creates a single-level dictionary for all the properties in an object.",
     "license": "MIT",
     "homepage": "https://github.com/gikmx/tools",

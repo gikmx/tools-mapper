@@ -28,7 +28,7 @@ import Types from './types';
  * // { 'a.b.d': true, 'a.b.e.g': 'foo', 'a.f': undefined }
  */
 export default function Mapper(subject, prefix = '') {
-    const err = Types.MapperParamError;
+    const err = Types.ParamError;
     if (!Is.object(subject))
         Thrower([err.message, 'subject', 'Object', typeof subject], err.name);
     return Object

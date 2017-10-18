@@ -16,6 +16,6 @@ export const MapperParamError = {
 export const MapperResult = {};
 
 export default {
-    MapperParamError,
-    MapperResult,
+    ParamError: MapperParamError,
+    Result: MapperResult,
 };
