@@ -1,7 +1,7 @@
 /**
  * @typedef {Error}
  * @name MapperParamError
- * @memberof mapper.Types
+ * @memberof Types
  * @description The subject passed is not the expected type.
  */
 export const MapperParamError = {
@@ -12,16 +12,11 @@ export const MapperParamError = {
 /**
  * @typedef {Object}
  * @name MapperResult
- * @memberof mapper.Types
+ * @memberof Types
  * @description A map to all the properties contained in an object.
  */
 export const MapperResult = {};
 
-/**
- * @namespace Types
- * @memberof mapper
- * @description Types used on `mapper`
- */
 export default {
     ParamError: MapperParamError,
     Result: MapperResult,

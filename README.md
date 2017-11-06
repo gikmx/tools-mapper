@@ -10,9 +10,8 @@
 
 #### <a name="table-of-contents"></a> Table of contents
 - **[mapper](#mapper)** Generates a flattened object containing a map for all the properties
-  - **[Types](#mapper.Types)** Types used on `mapper`
-    - **[MapperParamError](#mapper.Types.MapperParamError)** `typedef` The subject passed is not the expected type.
-    - **[MapperResult](#mapper.Types.MapperResult)** `typedef` A map to all the properties contained in an object.
+- **[Types](#Types)** ``
+  - **[MapperResult](#Types.MapperResult)** `typedef` A map to all the properties contained in an object.
 
 
 # <a name="mapper"></a> mapper
@@ -56,49 +55,30 @@ const result = Mapper(subject);
 // result:
 // { 'a.b.d': true, 'a.b.e.g': 'foo', 'a.f': undefined }
 ```
-###### Members
-
-- [Types](#mapper.Types)
 
 <small>**[▲ Top](#table-of-contents)**</small>
 
 ---
 
-## <a name="mapper.Types"></a> Types
-
-Types used on `mapper`
-
+# <a name="Types"></a> Types
 
 ###### Members
 
-- [MapperParamError](#mapper.Types.MapperParamError)
-- [MapperResult](#mapper.Types.MapperResult)
+- [MapperResult](#Types.MapperResult)
 
-<small>**[▲ Top](#mapper)**</small>
-
----
-
-### <a name="mapper.Types.MapperParamError"></a> MapperParamError
-> static  typedef of [`mapper.Types`](#mapper.Types)
-
-
-The subject passed is not the expected type.
-
-
-
-<small>**[▲ Top](#mapper.Types)**</small>
+<small>**[▲ Top](#table-of-contents)**</small>
 
 ---
 
-### <a name="mapper.Types.MapperResult"></a> MapperResult
-> static  typedef of [`mapper.Types`](#mapper.Types)
+## <a name="Types.MapperResult"></a> MapperResult
+> static  typedef of [`Types`](#Types)
 
 
 A map to all the properties contained in an object.
 
 
 
-<small>**[▲ Top](#mapper.Types)**</small>
+<small>**[▲ Top](#Types)**</small>
 
 ---
 
