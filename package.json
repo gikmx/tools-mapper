@@ -1,9 +1,9 @@
 {
     "name": "@gik/tools-mapper",
     "version": "0.0.6",
-    "description": "Creates a single-level dictionary for all the properties in an object.",
+    "description": "Flattens an object to a key-val dictionary. Part of our [tools suite](http://github.com/gikmx/tools)",
     "license": "MIT",
-    "homepage": "https://github.com/gikmx/tools",
+    "homepage": "http://gik.mx",
     "contributors": [
         "Héctor Menéndez <hector@gik.mx>"
     ],

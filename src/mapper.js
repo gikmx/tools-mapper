@@ -6,6 +6,8 @@ import Types from './types';
  * @module mapper
  * @description Generates a flattened object containing a map for all the properties
  * available on `subject`.
+ * > - [Standalone version](https://github.com/gikmx/tools-mapper).
+ * > - [Report a Bug](https://github.com/gikmx/tools-mapper/issues).
  *
  * @param {Object} subject - The object you want to map.
  * @returns {mapperResult} - A flattened object.

@@ -1,5 +1,5 @@
-# [@gik/tools-mapper](https://github.com/gikmx/tools) *0.0.6*
-> Creates a single-level dictionary for all the properties in an object.
+# [@gik/tools-mapper](http://gik.mx) *0.0.6*
+> Flattens an object to a key-val dictionary. Part of our [tools suite](http://github.com/gikmx/tools)
 
 ##### Contributors
 - [Héctor Menéndez](mailto:hector@gik.mx) []()
@@ -18,6 +18,8 @@
 
 Generates a flattened object containing a map for all the properties
 available on `subject`.
+> - [Standalone version](https://github.com/gikmx/tools-mapper).
+> - [Report a Bug](https://github.com/gikmx/tools-mapper/issues).
 
 ###### Parameters
 <table>
