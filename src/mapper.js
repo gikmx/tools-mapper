@@ -3,15 +3,15 @@ import Thrower from '@gik/tools-thrower';
 import Types from './types';
 
 /**
- * Generates an object containing a map for all the properties available on `subject`.
- * @name mapper
- * @memberof Tools
+ * @module mapper
+ * @description Generates a flattened object containing a map for all the properties
+ * available on `subject`.
  *
  * @param {Object} subject - The object you want to map.
- * @returns {mapperResult}
+ * @returns {mapperResult} - A flattened object.
  * @throws {mapperTypeError}
  *
- * @example
+ * @example @lang js
  * const subject = {
  *     a: {
  *         b: {
