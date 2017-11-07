@@ -1,4 +1,4 @@
-# [@gik/tools-mapper](http://gik.mx) *0.0.6*
+# [@gik/tools-mapper](http://gik.mx) *0.0.7*
 > Flattens an object to a key-val dictionary. Part of our [tools suite](http://github.com/gikmx/tools)
 
 ##### Contributors
